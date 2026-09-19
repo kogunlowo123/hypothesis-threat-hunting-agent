@@ -1,0 +1,13 @@
+suppressions:
+  - hunt: rare_process
+    entity: host
+    value: build-01
+    reason: Build host compiles new binaries every day.
+    approved_by: soc-lead
+    expires: 2026-12-31
+  - hunt: exfiltration
+    entity: host
+    value: retired-host
+    reason: Host was decommissioned in June.
+    approved_by: soc-lead
+    expires: 2026-06-30
