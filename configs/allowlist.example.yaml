@@ -1,0 +1,13 @@
+# Known-benign infrastructure that hunts should not report.
+destination_ips:
+  - 198.18.0.50        # backup service
+  - 198.18.0.20        # content delivery network used by the build host
+destination_domains:
+  - example.org
+  - example.com
+  - example.net
+scanner_ips:
+  - 198.18.0.1         # vulnerability scanner
+trusted_processes: []
+noisy_users:
+  - svc-patch          # patch management runs across many hosts by design

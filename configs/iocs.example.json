@@ -1,0 +1,5 @@
+{
+  "ips": ["203.0.113.66"],
+  "domains": ["c2-tunnel.example"],
+  "hashes": ["295932e8bf24af87c029f2261c39191ea7330c4bd66781e3afb85921f643cba8"]
+}

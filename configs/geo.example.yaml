@@ -1,0 +1,6 @@
+# Address ranges and countries for impossible-travel hunting. The countries below are invented for the demo:
+# the ranges are documentation addresses that do not belong to any country. Use a real geolocation export.
+ranges:
+  - {cidr: 192.0.2.0/24, country: US}
+  - {cidr: 198.51.100.0/24, country: RO}
+  - {cidr: 203.0.113.0/24, country: BR}

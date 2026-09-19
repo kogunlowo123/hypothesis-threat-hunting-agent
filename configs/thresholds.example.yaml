@@ -1,0 +1,23 @@
+# Any subset of thresholds. Values shown are the defaults.
+beacon_min_connections: 12
+beacon_max_jitter: 0.2          # coefficient of variation of the gaps between connections
+beacon_min_interval_seconds: 20
+dns_min_subdomains: 25
+dns_min_entropy: 3.4            # bits per character
+dns_min_label_length: 18
+dga_min_nxdomain: 15
+spray_min_users: 8
+spray_window_minutes: 30
+spray_max_attempts_per_user: 3
+bruteforce_min_failures: 10
+travel_window_hours: 3.0
+fanout_min_hosts: 5
+fanout_window_minutes: 30
+exfil_min_bytes: 50000000
+exfil_min_zscore: 3.0
+rare_max_hosts: 2
+enumeration_min_apis: 6
+enumeration_window_minutes: 10
+off_hours_start: 22
+off_hours_end: 6
+lead_window_hours: 24
