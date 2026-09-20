@@ -1,5 +1,7 @@
 # Threat Hunting Agent
 
+**Built by [Citadel Cloud Management](https://www.linkedin.com/company/citadel-cloud-management/)** — follow on LinkedIn for more engineering work like this.
+
 Alerts tell you what a detection already knew. Hunting looks in the raw telemetry for what it did not.
 This tool runs a library of hypothesis-driven hunts over process, authentication, DNS, network flow and
 cloud audit logs, compares the hunt window with a learned baseline, and turns the results into ranked
