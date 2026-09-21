@@ -36,7 +36,7 @@ You can expect an acknowledgement within 3 business days and a triage decision w
 | Prompt injection into summaries | The model receives only aggregate counts. Output containing numbers absent from those counts is discarded | `summary.py` |
 | Silent, permanent suppression of real findings | Suppressions need a reason and an approver, expire, and expired ones are reported | `models.Suppression`, `engine.py` |
 | Over-trusting an allowlist | Allowlisted destinations are configured explicitly and appear in the configuration you review | `config.py` |
-| Vulnerable dependencies | `pip-audit`, Dependabot, CodeQL | `.github/` |
+| Vulnerable dependencies | `pip-audit`, CodeQL | `.github/` |
 
 ## Known limits
 
